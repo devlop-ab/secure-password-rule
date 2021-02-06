@@ -1,0 +1,22 @@
+{
+    "name": "devlop/secure-password-rule",
+    "description": "Extendable SecurePassword rule for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johan Rosenson",
+            "email": "johan@devlop.se"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^7.0|^8.0",
+        "roave/dont": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devlop\\SecurePasswordRule\\": "src/"
+        }
+    }
+}
