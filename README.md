@@ -12,15 +12,15 @@ change it for your needs.
 
 # Installation
 
-```composer require devlop/secure-password-rule```
+```bash
+composer require devlop/secure-password-rule
+```
 
 # Usage
 
 Add it to the ```rules``` of a ```FormRequest```
 
-```
-<?php
-
+```php
 namespace App\Http\Requests;
 
 use Devlop\SecurePasswordRule\SecurePasswordRule;
@@ -54,9 +54,7 @@ ending up with different password requirements in different parts of your system
 The recommended way is to create your own sub class of SecurePasswordRule and change the parameters you wish to change, and then
 reference that sub class instead in your FormRequests.
 
-```
-<?php
-
+```php
 namespace App\Rules;
 
 use Devlop\SecurePasswordRule\SecurePasswordRule as BaseSecurePasswordRule;
