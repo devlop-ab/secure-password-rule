@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://packagist.org/packages/devlop/secure-password-rule"><img src="https://img.shields.io/packagist/v/devlop/secure-password-rule" alt="Latest Stable Version"></a>
-    <a href="https://github.com/devlop-ab/secure-password-rule/blob/master/LICENSE.md"><img src="https://img.shields.io/packagist/l/devlop/secure-password-rule" alt="License"></a>
+    <a href="https://github.com/devlop/secure-password-rule/blob/master/LICENSE.md"><img src="https://img.shields.io/packagist/l/devlop/secure-password-rule" alt="License"></a>
 </p>
 
 # SecurePasswordRule
